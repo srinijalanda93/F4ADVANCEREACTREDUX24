@@ -1,5 +1,11 @@
 Day-1 
 1.Modules in JS (D)
 2.JSX (xml) (D)
-3.components in React
+3.components in React (D)
+ ->functional components,babel customized <Navbar props/> //here the props internal single obj
+
+Day-2
+4.VDOM comparsion(diffing algo,recolliation) 
+5.class component
+6.UseSate in class component
 

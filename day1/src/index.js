@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import {Navbar} from "./ModulesTopic/navbar"
+ import {navbar} from "./ModulesTopic/navbar"
 // import {Product} from "./ModulesTopic/product"
 import {Information} from "./ModulesTopic/navbar"
 
@@ -16,5 +16,6 @@ root.render(
 <Information Imageurl={url} altName="Blinkit"  title={title} weight="400g" price={cost}/>
 </>
 );
+
 
 

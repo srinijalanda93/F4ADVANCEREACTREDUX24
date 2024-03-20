@@ -87,6 +87,7 @@ const div = <>{paras}</>;
 root.render(div);
 
 //----------------------------------------------------------------
+//COMPONENT
 // import React from "react";
 // import ReactDOM from "react-dom/client";
 // import "./index.css";
