@@ -27,7 +27,7 @@ export class App extends Component {
   //constructor for the accessing the props
   /**never do this "state" is only read ony value direct update can't be done
    * this.state={count:1}
-   * this.state.count+=1; 
+   * this.state.count+=1;
    */
   constructor(props) {
     super(props);
@@ -41,15 +41,15 @@ export class App extends Component {
    * inside the functional component   <App name="hello! girls"  edc="sfc"/> =>App({name:"srinija",edc:"sfc"})
    */
   render() {
-    console.log("render exceuted")
-    const increment=()=>{
+    console.log("render exceuted");
+    const increment = () => {
       /**
-       * so inside this function we need to change the count value 
+       * so inside this function we need to change the count value
        * by using this.setState({count:previousStoredValue+1})
        */
-      let curr=this.state.count; //checks it lexical enivronment
-      this.setState({count:curr+1});
-    }
+      let curr = this.state.count; //checks it lexical enivronment
+      this.setState({ count: curr + 1 });
+    };
     return (
       <>
         <div>
@@ -58,7 +58,6 @@ export class App extends Component {
           <p>count:{this.state.count}</p>
           <button onClick={increment}>Increment</button>
         </div>
-
       </>
     );
   }

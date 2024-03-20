@@ -4,7 +4,9 @@ import ReactDOM from "react-dom/client";
 //import {navbar} from "./ModulesTopic/navbar"
 // import {Product} from "./ModulesTopic/product"
 //import {Information} from "./ModulesTopic/navbar";
-import { App } from "./VDOM/class";
+// import { App } from "./VDOM/class";
+// import {Counter} from './VDOM/counter';
+import {Greeting} from './VDOM/Greeting';
 
 //const h1=React.createElement("h2",{id:"s"},"helloworld!");
 
@@ -20,6 +22,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <App name="hello! girls"  edc="sfc"/>
+    {/* <App name="hello! girls"  edc="sfc"/> */}
+    {/* <Counter/> */}
+    <Greeting/>
   </>
 );
