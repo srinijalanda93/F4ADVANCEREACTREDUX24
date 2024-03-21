@@ -1,0 +1,54 @@
+.btn{
+    background-color:green;
+    border:1px solid red;
+    padding:10px;
+}
+.card{
+    border:1px solid rgb(244, 182, 182);
+    padding:10px;
+    border-radius:3px;
+    width:200px;
+    img{
+        border:1px solid green;
+        width:100%;
+    }
+    h3{
+        font-size:15px;
+        margin:0px;
+
+    }
+    .size{
+        margin-block:19px !important;
+    }
+   
+    
+}
+.button{
+    display:flex;
+    justify-content: space-between;
+  }
+  button{
+    color: #326163;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: transparent;
+    padding:4px;
+}
+.btn-group{
+    display:flex;
+    align-items:center;
+    button{
+        color:white;
+        font-weight: 900;
+        border:none;
+      border-radius: 0px !important;
+        background-color:#326163 ;
+        padding:4px;
+    }  
+    span{
+        background-color:#326163 ;
+        color:white;
+        padding-inline:4px;
+        padding-block:4.1px;
+    }
+}

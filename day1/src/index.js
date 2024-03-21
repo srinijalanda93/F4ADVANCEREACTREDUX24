@@ -1,14 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-//import "./index.css";
-//import {navbar} from "./ModulesTopic/navbar"
-// import {Product} from "./ModulesTopic/product"
-//import {Information} from "./ModulesTopic/navbar";
-// import { App } from "./VDOM/class";
-// import {Counter} from './VDOM/counter';
-import {Greeting} from './VDOM/Greeting';
-
-import {FunctionComp} from './VDOM/funComponent'
+import {Hooks,Displays} from './FunctionComp/hooks';
+//import {FunctionComp} from './FunctionComp/funComponent'
 //const h1=React.createElement("h2",{id:"s"},"helloworld!");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -27,6 +20,8 @@ root.render(
     {/* <Counter/> */}
     {/* <Greeting/> */}
     {/* <Practice/> */}
-    <FunctionComp/>
+    {/* <FunctionComp/> */}
+    <Hooks/>
+    <Displays/>
   </>
 );
