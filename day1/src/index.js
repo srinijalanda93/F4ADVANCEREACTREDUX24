@@ -8,6 +8,7 @@ import ReactDOM from "react-dom/client";
 // import {Counter} from './VDOM/counter';
 import {Greeting} from './VDOM/Greeting';
 
+import {FunctionComp} from './VDOM/funComponent'
 //const h1=React.createElement("h2",{id:"s"},"helloworld!");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -24,6 +25,8 @@ root.render(
   <>
     {/* <App name="hello! girls"  edc="sfc"/> */}
     {/* <Counter/> */}
-    <Greeting/>
+    {/* <Greeting/> */}
+    {/* <Practice/> */}
+    <FunctionComp/>
   </>
 );

@@ -21,6 +21,7 @@ import { Component } from "react";
  * 3.state is predefined inside the Component alway in object format we can dothe change of this.state inside the constructor
  * 4.so in the constructor we can defined the statr by assigning but for updation we need to use the method
  * 5.STATE IS PIECE OF CHANAGEABLE DATA ASSIGNED  PIECE OF  UI
+ * 6.to modify the setState(args) *args =>can be object or  a function (ref) to funComponent.js
  * 6.Always the EventListener need to be camelCase pass the function reference
  */
 export class App extends Component {
