@@ -1,0 +1,16 @@
+.tasks-list{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:10px;
+    .task{
+        margin-top: 5px;
+        display:flex;
+    justify-content: space-between;
+    padding:10px;
+    border-radius: 9px;
+    background-color: bisque;
+    color:black;
+    }
+
+}

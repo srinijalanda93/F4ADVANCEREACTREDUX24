@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {Hooks,Displays} from './FunctionComp/hooks';
-//import {FunctionComp} from './FunctionComp/funComponent'
-//const h1=React.createElement("h2",{id:"s"},"helloworld!");
+import { TodoApp } from "./FunctionComp/todoApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // const url="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/93579704-2486-4199-8e63-cc3436f3fae5.jpg?ts=1708593038";
@@ -21,7 +19,8 @@ root.render(
     {/* <Greeting/> */}
     {/* <Practice/> */}
     {/* <FunctionComp/> */}
-    <Hooks/>
-    <Displays/>
+    {/* <Hooks/> */}
+    {/* <Displays/> */}
+    <TodoApp/>
   </>
 );

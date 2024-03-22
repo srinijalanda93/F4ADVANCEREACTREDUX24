@@ -1,3 +1,5 @@
+https://github.com/SAMUDRALAARAVIND/machine-coding-react
+"the above link about different component building"
 Day-1 
 1.Modules in JS (D)
 2.JSX (xml) (D)
@@ -10,15 +12,15 @@ Day-2
 5.class component (D) a.setState(args) =>args*{}/function(prev)
 6.setSate in class component (D)
 
-Day-3 (GO to my Whatsapp)
-github link of aarvind he explained detailed about  function compoenet execution line by line
-some master in js link also he gave  save it here /functionComponent folder..
+Day-3
 7.Functional component(D) ->blinkit divatg with counter -/+
 8.useSate hooks in FC (D) ->Primitive Datatype
 9.Life cycle of component (D) in FC,CC 
 
 what is a hook(alternative of life cycle component) :it is plain js function used in FC for manage the state 
-Day-4 HOOK concepts
+Day-4 HOOK concepts 
+Read the below md about the execution of hooks
+https://github.com/SAMUDRALAARAVIND/feb-react/blob/main/docs/state.md#usestate-hook
 10.usestate Hooks in FC  ->non-primitive
 11.useState Async Behaviour of FC ->hooks.js
 12.useState lazy initalization
