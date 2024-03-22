@@ -1,4 +1,4 @@
-https://github.com/SAMUDRALAARAVIND/machine-coding-react
+https://github.com/SAMUDRALAARAVIND/machine-coding-react  (Short prj for interview)
 "the above link about different component building"
 Day-1 
 1.Modules in JS (D)
@@ -22,10 +22,11 @@ Day-4 HOOK concepts
 Read the below md about the execution of hooks
 https://github.com/SAMUDRALAARAVIND/feb-react/blob/main/docs/state.md#usestate-hook
 10.usestate Hooks in FC  ->non-primitive
-11.useState Async Behaviour of FC ->hooks.js
-12.useState lazy initalization
-13.Assignment
+11.useState Async Behaviour of FC ->hooks.js (D)
+12.Assignment (counteApp,menuApp)
 
-
-
-
+Day-5 
+https://github.com/SAMUDRALAARAVIND/machine-coding-react
+13.Lazy initallization
+14.State uplifting
+15.movieapp (Data.js)

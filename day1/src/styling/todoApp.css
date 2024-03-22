@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-direction: column;
     gap:10px;
+    list-style-type: none;
     .task{
         margin-top: 5px;
         display:flex;

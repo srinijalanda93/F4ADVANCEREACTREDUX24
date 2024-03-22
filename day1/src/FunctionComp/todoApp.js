@@ -32,6 +32,7 @@ export const TodoApp = () => {
   return (
     <>
       <div style={{ margin: "20px" }}>
+        <h1>To-Do List</h1>
         <div>
           <input
             placeholder="Enter Todo"
@@ -40,18 +41,18 @@ export const TodoApp = () => {
           />
           <button onClick={addTodo}>Add Todo</button>
         </div>
-        <div className="tasks-list">
+        <ul className="tasks-list">
           {tasks.map((task) => {
             return (
               <>
-                <div className="task">
+                <li className="task">
                   <span>{task}</span>
                   <button onClick={() => removeTask(task)}>Delete</button>
-                </div>
+                </li>
               </>
             );
           })}
-        </div>
+        </ul>
       </div>
     </>
   );

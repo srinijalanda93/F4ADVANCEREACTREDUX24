@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { TodoApp } from "./FunctionComp/todoApp";
+import ReactDOM from "react-dom";
+import {Lazy} from './FunctionComp/lazyinital';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // const url="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/93579704-2486-4199-8e63-cc3436f3fae5.jpg?ts=1708593038";
@@ -12,15 +12,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // </>
 // )
 
-root.render(
-  <>
-    {/* <App name="hello! girls"  edc="sfc"/> */}
-    {/* <Counter/> */}
-    {/* <Greeting/> */}
-    {/* <Practice/> */}
-    {/* <FunctionComp/> */}
-    {/* <Hooks/> */}
-    {/* <Displays/> */}
-    <TodoApp/>
-  </>
-);
+root.render(<Lazy n={100} />);
